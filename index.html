@@ -15,8 +15,35 @@
 	<!--Page about Isaac Asimov and his work ;)-->
 	<!--At least four paragraphs-->
 <header>
+	<div class="right">
+		<!-- Load Facebook SDK for JavaScript -->
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<!-- Your share button code -->
+		<div class="fb-share-button" 
+			data-href="http://15.237.61.37/index.html" 
+			data-layout="button_count">
+		</div>
+	</div>
+
+	<div class="right">
+		<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+	
+	<div class="right">
+		<script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+		<script type="IN/Share" data-url="https://www.linkedin.com"></script>
+	</div>
+
 	<ul>
-		<li class="logo"><img src="https://emoji-uc.akamaized.net/orig/d4/b14f9aac5262342737b870a53d839c.png" width="100" height="100" alt="logo"></li>
+		<li class="logo"><img class="logo-1" src="https://emoji-uc.akamaized.net/orig/d4/b14f9aac5262342737b870a53d839c.png" alt="logo"></li>
 		<li><a href="index.html"> Homepage</a></li>
 		<li><a href="tweets.html"> Nuclear Energy in social media</a></li>
 		<li><a href="type_react.html"> Type of nuclear reactors</a></li>
