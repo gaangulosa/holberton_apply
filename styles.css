@@ -23,12 +23,25 @@ aside {
 header {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 17px;
-	background: lightgrey;
+	background: #E6E6E6;
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
 }
-
 
 h1 {
 	text-align: center;
+}
+
+footer {
+	background: #E6E6E6;
+	height: auto;
+}
+
+iframe {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .logo-1 {
@@ -41,3 +54,10 @@ h1 {
   	margin-left: auto;
   	margin-right: auto;
 }
+
+.twitter-tweet {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
